@@ -5,8 +5,7 @@ def prime?(integer)
     return false
   else if (integer==3)
     return true
-  else 
-
+  else
 if (array.all?{|i| integer%i==0})
   return true
 else
