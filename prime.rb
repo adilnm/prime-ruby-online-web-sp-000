@@ -2,8 +2,8 @@
 def prime?(integer)
 array=(2..(integer-1)).to_a
 if (array.all?{|i| integer%i==0})
-  return false
-else
   return true
+else
+  return false
 end
 end
