@@ -1,5 +1,5 @@
 # Add  code here!
 def prime?(integer)
-  count=2
-while integer%count==
+array=(2..integer-1).to_a
+if (integer%count)
 end
