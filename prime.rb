@@ -6,7 +6,7 @@ def prime?(integer)
   elsif (integer==3)
     return true
   else 
-  return array.all?{|i| integer%i==0}
+  return array
 
 end
 end
