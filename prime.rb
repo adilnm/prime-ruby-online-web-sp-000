@@ -6,3 +6,4 @@ if (array.any?{|i| integer%i!=0})
 else
   return true
 end
+end
